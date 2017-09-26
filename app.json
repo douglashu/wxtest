@@ -1,8 +1,8 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/test/test"
+    "pages/buycar/buycar",
+    "pages/carservice/carservice",
+    "pages/person/person"
 
   ],
   "window":{
@@ -19,19 +19,19 @@
       {
         "selectedIconPath": "image/car/1.png",
         "iconPath": "image/car/11.png",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/buycar/buycar",
         "text": "买车"
       },
       {
         "selectedIconPath": "image/car/2.png",
         "iconPath": "image/car/22.png",
-        "pagePath": "pages/logs/logs",
-        "text": "维修"
+        "pagePath": "pages/carservice/carservice",
+        "text": "服务"
       },
       {
         "selectedIconPath": "image/car/3.png",
         "iconPath": "image/car/33.png",
-        "pagePath": "pages/test/test",
+        "pagePath": "pages/person/person",
         "text": "我的"
       }
     ]
