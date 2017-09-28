@@ -1,0 +1,20 @@
+<view class="container">  
+ <view> 
+  <block wx:for-items="{{msgs1}}" wx:key="{{index}}"> 
+   <navigator bindtap="navigateTo" style="{{item.backgroundColor}}" data-url="{{item.url}}" class="weui-media-box weui-media-box_appmsg "> 
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg" style=""> 
+     <image class="weui-media-box__thumb" src="{{item.thumb_url}}" /> 
+    </view> 
+    <view class="weui-media-box__bd"> 
+     <view class="weui-media-box__title" style="{{item.color}}">
+      {{item.title}}
+     </view> 
+     <view class="weui-media-box__desc" style="{{item.dcolor}}">
+      {{item.desc}}
+     </view> 
+    </view> 
+   </navigator> 
+  </block> 
+ </view> 
+
+</view>

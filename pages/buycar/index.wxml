@@ -1,0 +1,33 @@
+<view class="container"> 
+ <view class="weui-panel weui-panel_access"> 
+  <view class="weui-panel__hd"> 
+  </view> 
+  <view class="weui-panel__bd">  
+   <view class="weui-grids"> 
+    <block wx:for-items="{{grids}}" wx:key="{{index}}"> 
+     <navigator bindtap="navigateTo1" data-url="{{item.url}}" class="weui-grid weui-grid-33" hover-class="weui-grid_active"> 
+      <view class="weui-grid-inner" style="{{item.backgroundColor}}"> 
+       <image class="weui-grid__icon" src="{{item.thumb_url}}" mode="scaleToFill" style="height:50px width:60px " /> 
+       <view class="weui-grid__label" style="{{item.color}}">
+        {{item.title}}
+       </view> 
+      </view> 
+     </navigator> 
+    </block> 
+   </view>  
+   <swiper class="swiper" indicator-dots="true" autoplay="true" interval="3000" current="{{currentIndex2}}" circular="true" duration="1000" style="height:250px"> 
+    <block wx:for-items="{{swipers}}" wx:key="{{index}}"> 
+     <navigator bindtap="navigateTo2" data-url="{{item.url}}"> 
+      <swiper-item> 
+       <image src="{{item.thumb_url}}" class="slide-image" data-a="{{item.thumb_url}}"/> 
+      </swiper-item> 
+     </navigator> 
+    </block> 
+   </swiper> 
+  </view> 
+  
+  <view class="weui-panel__ft"> 
+  </view> 
+ </view> 
+
+</view>

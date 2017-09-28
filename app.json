@@ -1,8 +1,10 @@
 {
   "pages":[
-    "pages/buycar/buycar",
+    "pages/buycar/index",
     "pages/carservice/carservice",
-    "pages/person/person"
+    "pages/person/person",
+    "pages/listdiscount/index",
+    "pages/empty/index"
 
   ],
   "window":{
@@ -13,24 +15,24 @@
   },
   "tabBar": {
     "color": "#a9b7b7",
-    "selectedColor": "#11cd6e",
+    "selectedColor": "black",
     "borderStyle": "gray",
     "list": [
       {
-        "selectedIconPath": "image/car/1.png",
-        "iconPath": "image/car/11.png",
-        "pagePath": "pages/buycar/buycar",
+        "selectedIconPath": "assets/image/car/1.png",
+        "iconPath": "assets/image/car/11.png",
+        "pagePath": "pages/buycar/index",
         "text": "买车"
       },
       {
-        "selectedIconPath": "image/car/2.png",
-        "iconPath": "image/car/22.png",
+        "selectedIconPath": "assets/image/car/2.png",
+        "iconPath": "assets/image/car/22.png",
         "pagePath": "pages/carservice/carservice",
         "text": "服务"
       },
       {
-        "selectedIconPath": "image/car/3.png",
-        "iconPath": "image/car/33.png",
+        "selectedIconPath": "assets/image/car/3.png",
+        "iconPath": "assets/image/car/33.png",
         "pagePath": "pages/person/person",
         "text": "我的"
       }

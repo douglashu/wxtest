@@ -1,0 +1,8 @@
+{
+	"navigationBarBackgroundColor": "#479de6",
+	"navigationBarTextStyle": "white",
+	"navigationBarTitleText": "买车",
+	"backgroundColor": "#ffffff",
+	"backgroundTextStyle": "light",
+	"enablePullDownRefresh":"false"
+}

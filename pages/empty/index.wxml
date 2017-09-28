@@ -1,0 +1,11 @@
+<view class="container"> 
+ <view class="weui-msg"> 
+  <icon type="warn" size="86"></icon> 
+  <view class="weui-article__h2">
+    操作失败 ,没有页面
+  </view> 
+  <view>
+   
+  </view> 
+ </view> 
+</view>
